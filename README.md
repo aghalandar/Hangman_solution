@@ -46,6 +46,7 @@ The prediction is based on a combination of:
 
 #### Approach:
 In the second approach, I employ a trie due to its powerful functionality. The trie structure serves as an intelligent way to store words or sequences, enabling fast searches, efficient space utilization by storing only necessary data, and supporting auto-complete features in search engines. Adding or removing words is akin to adjusting branches on a tree, making it versatile and straightforward. Moreover, it excels in sorting numerous words swiftly while maintaining a tidy and compact structure.
+![Example of Trie structure]([image_url](https://github.com/aghalandar/Hangman_solution/blob/63e5ce3001856bc66795a4dba1d4a5507d6e89b6/Trie_example.svg.png))
 
 This approach for tackling the Hangman challenge combines heuristic techniques with a trie data structure for letter prediction. Initially, we construct a trie to efficiently store and navigate the dictionary, integrating frequency information at each node. During the guessing process, our algorithm looks for patterns that match the masked word within the constructed trie.
 
